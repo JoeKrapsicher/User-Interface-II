@@ -1,1 +1,106 @@
 /* Add CSS styling here */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+
+header{ 
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    background-color: lightgrey;
+}
+nav{
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px ;
+    padding: 10px;
+    width: 100px;
+
+}
+
+nav:hover{
+    background-color: lightslategray;
+}
+
+button{
+    border: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.navBar{
+    margin: 0 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px dotted black; */
+    color: blue;
+
+}
+
+.Pen{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 0 0 0 15px;
+}
+
+.Boxes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+section{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.Group{
+    text-align: center;
+}
+
+.mainImage{
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+    margin: 0 20px 0 0;
+}
+
+.Contacts{
+    border: 2px solid black;
+    margin: 0px auto;
+    max-width: 80px;
+    padding: 10px 20px;
+
+}
+
+footer{
+    background-color: lightcoral;
+    padding: 20px;
+}
